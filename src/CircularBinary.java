@@ -6,12 +6,13 @@ public class CircularBinary {
         int number;
         double calcNumber;
         int power = 0;
-        int count = 0;
+        String binary;
         int remaining;
 
         System.out.println("Welcome to the Circular Problem Solver!");
         System.out.print("How many numbers are in the circle? (n): ");
         number = s.nextInt();
+        binary = Integer.toBinaryString(number);
         calcNumber = number;
 
         while(!(calcNumber < 2))
