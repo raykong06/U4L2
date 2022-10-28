@@ -19,10 +19,8 @@ public class CircularBinary {
 
         length = binary.length();
 
-        while(index < length)
-        {
+power = Integer.parseInt(binary.substring(length - 1));
 
-        }
         remaining = (number - (int)Math.pow(2, power)) * 2 + 1;
 
         System.out.println("The last remaining number is " + remaining);
