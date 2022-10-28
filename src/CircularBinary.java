@@ -8,6 +8,8 @@ public class CircularBinary {
         int power = 0;
         String binary;
         int remaining;
+        int index = 0;
+        int length;
 
         System.out.println("Welcome to the Circular Problem Solver!");
         System.out.print("How many numbers are in the circle? (n): ");
@@ -15,13 +17,11 @@ public class CircularBinary {
         binary = Integer.toBinaryString(number);
         calcNumber = number;
 
-        while(!(calcNumber < 2))
+        length = binary.length();
+
+        while(index < length)
         {
-            while(calcNumber <= 0)
-            {
-                calcNumber = calcNumber - 2;
-                count++;
-            }
+
         }
         remaining = (number - (int)Math.pow(2, power)) * 2 + 1;
 
