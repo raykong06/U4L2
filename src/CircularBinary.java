@@ -28,7 +28,7 @@ public class CircularBinary {
             count2 = 0;
             count1++;
         }
-        remaining = (number - powerNumber) * 2 + 1;
+        remaining = (number - powerNumber) + (number - powerNumber) + 1;
 
         System.out.println("The last remaining number is " + remaining);
     }
